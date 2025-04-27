@@ -1,0 +1,10 @@
+## docker 部署的命令
+
+
+##docker镜像构建
+docker build --tag test01   test01是可以修改的
+
+## 运行镜像
+docker run -d -p 8000:8000 test01    -d表示后台运行，-p端口映射，test01是上面docker build 构建的镜像
+
+
